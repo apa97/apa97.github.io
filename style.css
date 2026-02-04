@@ -10,8 +10,12 @@ header{
   text-align: center;
 }
 
-h2 {
-  padding-bottom: 0.5rem;
+h1 h2 {
+  margin: 0rem;
+}
+
+p {
+  margin: 0rem;
 }
 
 body {
@@ -26,7 +30,7 @@ main {
 }
 
 section {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 nav a {
