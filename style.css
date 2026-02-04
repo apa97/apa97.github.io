@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+}
+
+header {
+  padding: 2rem;
+  background-color: #222;
+  color: white;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+nav a {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #0077cc;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f2f2f2;
+}
