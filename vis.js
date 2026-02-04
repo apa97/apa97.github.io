@@ -10,7 +10,7 @@ data.forEach((value, index) => {
   rect.setAttribute("y", 300 - value * 2);
   rect.setAttribute("width", barWidth - 10);
   rect.setAttribute("height", value * 2);
-  rect.setAttribute("fill", "#4CAF50");
+  rect.setAttribute("fill", "#CDBCAB");
   chart.appendChild(rect);
 });
 

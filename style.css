@@ -1,21 +1,41 @@
 * {
   box-sizing: border-box;
-  font-family: Times New Roman, sans-serif;
+  font-family: Times, sans-serif;
 }
 
 header{
   padding: 0rem 2rem 1rem 1rem;
-  background-color: #D99EC1;
   color: white;
   text-align: center;
 }
 
-h1 h2 {
-  margin: 0rem;
+header, footer {
+  background-color: #D1C7BD;
+}
+
+h1 {
+  font-size: 20pt;
+  margin: 2rem 0rem 0rem 0rem;
+}
+
+h2 {
+  font-size: 16pt;
+  margin: 2rem 0rem 0rem 0rem;
+}
+
+h4 {
+  margin: 0rem 0rem 0rem 0rem;
+}
+
+.title-heading {
+  background-color: #EDE3DB;
+  text-align: center;
+  padding: 1rem 0rem 3rem 0rem;
 }
 
 p {
   margin: 0rem;
+  font-size: 11.5pt;
 }
 
 body {
@@ -37,17 +57,39 @@ nav a {
   display: inline-block;
   margin-top: 1rem;
   margin-left: 1rem;
-  text-decoration: none;
   color: #3B2431;
 }
 
 footer {
   text-align: center;
   padding: 0.5rem 0rem 0.5rem 0rem;
-  background-color: #e5a8cd;
 }
 
 /* Click Interaction */
 .pink {
-  color: #D99CBF;
+  color: #b26599;
+}
+
+/* Skills */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14em, 2fr));
+  gap: 30px;
+  padding-bottom: 1rem;
+}
+
+/* Project */
+.each-project {
+  padding-bottom: 1rem;
+}
+
+/* Horizontal line */
+hr {
+  border-top: 3px solid #D1C7BD; 
+  width: 100%;            
+}
+
+/* SVG */
+#chart, #art {
+  padding-top: 2.5rem;
 }

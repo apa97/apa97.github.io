@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+ 
+<!-- HEAD -->
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Alyssa Pacamarra | Personal Website</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
 
+<!-- BODY -->
+<body>
 <header>
   <nav class="main-nav">
     <a class="nav" href="index.html">
@@ -18,17 +21,20 @@
 </header>
 
 <main>
-  <section>
-  <h1 id="title">Alyssa Pacamarra</h1>
-  <p>Majoring in Interactive Arts & Technology Student</p>
+  <section class="title-heading">
+    <div>
+      <h1 id="title">Alyssa Pacamarra</h1>
+      <p>Majoring in Interactive Arts & Technology Student</p>
+    </div>
   </section>
+
   <section>
     <h2>About Me</h2>
     <p>
-      Hi, I’m Alyssa, an Interactive Arts & Technology student with a passion for web and 
+      Hi, I’m Alyssa, a SIAT student with a passion for web and 
       mobile development. I enjoy designing websites and apps, creating layouts that are 
       both functional and visually appealing. I’m still building my skills, but I’m eager 
-      to learn and explore new tools and techniques. I like combining creativity with technology 
+      to learn and explore new tools and techniques. I like combining my creativity with technology 
       to develop projects that are engaging, user-friendly, and meaningful.
     </p>
   </section>
@@ -38,18 +44,64 @@
     <p>Simon Fraser University (2020 - Present)</p>
   </section>
 
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>Tableau, Figma</li>
-      <li>Data Visualization</li>
-    </ul>
-  </section>
+<section>
+  <h2>Technical Skills</h2>
+  <div class="skills-grid">
+    <div>
+      <h4>Programming</h4>
+      <p>HTML, CSS, JavaScript, Processing, Java, React Native</p>
+    </div>
+    <div>
+      <h4>Design Tools</h4>
+      <p>Tableau, Figma, Illustrator</p>
+    </div>
+    <div>
+      <h4>Data</h4>
+      <p>Data Visualization</p>
+    </div>
+  </div>
+</section>
+
+ <section>
+  <hr>
+ </section>
 
   <section>
     <h2>Experience</h2>
-    <p>Course projects involving visualization, UX research, and web design.</p>
+    <div class="projects">
+      <div class="each-project">
+        <h4>Espresso Coffee Company</h4>
+        <p>A website developed using HTML and CSS to show a fictional coffee shop. This website 
+          includes an interactive menu, information about products, with a clean, modern design. 
+          I added responsive layouts so the website works on a range of different device sizes, from desktop 
+          to mobile. This project helped me practice web design principles, HTML semantics and CSS styling.</p>
+      </div>
+
+      <div class="each-project">
+        <h4>Mindful Moments</h4>
+        <p>A mobile app created using React Native to help users track mindfulness and 
+          meditation activities. The app allows users to capture daily mindfuless through logging their 
+          daily journaling. I focused on creating an intuitive interface and smooth navigation, so users
+          will not have trouble navigating through the app. I made sure to keep the app simple and visually 
+          appealing with calming and peaceful theme colours to help with the mindfuless effect. This project strengthened my skills 
+          in React Native and in mobile UI design.</p>
+      </div>
+
+      <div class="each-project">
+        <h4>Munchie</h4>
+        <p>A voice-based mobile app created using Protopie to prototype a food recipe app. The 
+          app works by having a calendar that fits cooking time into the user's busy schedule, there is also a food 
+          pantry to know the ingredients the user has at home so it can generate recipes with known 
+          ingredients, and a recipe area where user's can find new recipes. My role was 
+          to design the user flow, create realistic interactions, and test the usability. I had to make sure the 
+          prototype felt engaging, user-friendly because we did have many elements and ideas to fit into this app. 
+          This project helped me develop skills in interaction design (prioritizing the users needs) and prototyping.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <hr>
   </section>
 
   <section>
@@ -57,16 +109,17 @@
     <p>School Email: apa97@sfu.ca</p>
     <p>Personal Email: alyssapacamarra11@gmail.com</p>
     <p>
-      <a href="https://github.com/apa97">My GitHub Account</a>
+      Github Account: <a href="https://github.com/apa97">Github-apa97</a>
     </p>
   </section>
-
 </main>
 
+<!-- FOOTER -->
 <footer>
   <p>Alyssa Pacamarra Portfolio</p>
 </footer>
 
 <script src="main.js"></script>
 </body>
+
 </html>
