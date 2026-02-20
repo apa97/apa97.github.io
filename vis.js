@@ -1,3 +1,4 @@
+
 // SVG Visualtion - Bar Chart
 const data = [40, 70, 55, 90, 60];
 const chart = document.getElementById("chart");
@@ -26,6 +27,7 @@ for (let i = 0; i < 20; i++) {
   art.appendChild(circle);
 }
 
+
 // -------------------------------------------------------------------------
 
 
@@ -43,7 +45,7 @@ vegaEmbed("#vis1", {
       { field: "Global_Sales", type: "quantitative" }
     ]
   },
-  width: "container",
+  width: 700,
   height: 400
 });
 
@@ -61,7 +63,7 @@ vegaEmbed("#vis2", {
       { field: "Global_Sales", type: "quantitative" }
     ]
   },
-  width: "container",
+  width: 700,
   height: 400
 });
 
@@ -79,7 +81,7 @@ vegaEmbed("#vis3", {
       { field: "Sales", type: "quantitative" }
     ]
   },
-  width: "container",
+  width: 700,
   height: 400
 });
 
@@ -96,6 +98,6 @@ vegaEmbed("#vis4", {
       { field: "Global_Sales", type: "quantitative" }
     ]
   },
-  width: "container",
+  width: 700,
   height: 400
 });
